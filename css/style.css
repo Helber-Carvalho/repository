@@ -1,0 +1,141 @@
+.fundo{
+    box-sizing: border-box;
+    background-image:url("../img/piso-de-madeira-marrom_53876-90802.avif");
+}
+p{
+    color: a;
+}
+.subtitle{
+    text-align: center;
+    
+}
+.title{
+  color: rgb(181, 150, 212);
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border:  2px solid;
+  background: linear-gradient(to right,#b6a68d 10%, #8a7a5b 50%, #b6a68d 100%);
+  background-image: url("../img/taboadodoBacgroud.jpj.jpg");
+  background-repeat: repeat;
+  font-family: 'Roboto', sans-serif;
+  
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  /* .gallery ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .gallery li {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .gallery img {
+    max-width: 20%;
+    height: auto;
+    transition: transform 0.3s ease;
+    width: 20%;
+    padding: 10px;
+    box-sizing: border-box;
+  } */
+  
+  /* .gallery img:hover {
+    transform: scale(1.1); }*/
+  
+  .menu{
+    text-align: right;
+    /* margin-top: 20px; */
+    
+padding: 20px;
+}
+.menu a {
+    color: rgb(181, 150, 212);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+    border:  2px solid;
+
+}
+.menu a:hover {
+    color: rgb(181, 150, 212);
+    border-top:  4px solid  ;
+}
+
+/* .gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.gallery .item {
+  flex: 1 1 calc(33.33% - 10px); 
+  margin-bottom: 10px; 
+}
+
+.gallery .item img {
+  width: 20%;
+  height: auto;
+} */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery .item {
+  flex: 1 1 calc(33.33% - 10px); /* Cada coluna ocupa 33.33% da largura da tela com um espaço de 10px entre elas */
+  margin: 0 5px 10px; /* Margem nas laterais e na parte inferior de cada item */
+}
+
+.gallery .item img {
+  width: 100%;
+  height: auto;
+}
+  /* .fundodemadeira{
+    background-image:url("../img/piso-de-madeira-marrom_53876-90802.avif");
+  } */
+
+.aling{
+  text-align: center;
+}
+/* .larguraSobre{
+  
+  width: 30% ;
+  text-align: center;
+  border: 2px solid;
+  text-shadow: #2d2d2c;
+  font-size: x-large;
+}
+.larguraSobre2{
+  left: 10%;
+  width: 30%;
+  margin-left: 30%;
+} */
+
+    .container {
+        display: flex;
+    }
+
+    .larguraSobre,
+    .larguraSobre2 {
+        flex: 1; /* Para ocupar espaço igualmente */
+        margin-right: 20px; /* Espaçamento entre as divs */
+        width: 30% ;
+        text-align: center;
+        border: 2px solid;
+        text-shadow: #2d2d2c;
+        font-size: x-large;
+    }
+
